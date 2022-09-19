@@ -1,5 +1,4 @@
 import { Layout } from "antd";
-import Background from "../background/Background";
 import Header from "../header/Header";
 const { Content } = Layout;
 
