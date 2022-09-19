@@ -1,0 +1,45 @@
+.MovieItem {
+  animation: fadeIn 5s;
+
+  .ant-card,
+  .ant-card-cover img {
+    border-radius: 4px !important;
+  }
+
+  .ant-card-body {
+    position: relative;
+
+    .ant-card-meta-title {
+      font-weight: 700;
+
+      &:hover {
+        color: #18bbe6;
+      }
+    }
+
+    .progress {
+      position: absolute;
+      background-color: #081c22;
+      border-radius: 50%;
+      top: -19px;
+      left: 10px;
+
+      &__percent {
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

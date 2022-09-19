@@ -1,0 +1,41 @@
+.movieList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.movieList--horizon {
+  overflow: auto;
+}
+
+.movieList--vertical {
+  flex-wrap: wrap;
+}
+
+.ant-tabs-nav-list {
+  transform: translate(0px, 0px);
+  background-color: #032541;
+  border-radius: 30px;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.ant-tabs-ink-bar {
+  background: linear-gradient(to right, #c0fecf 0%, #1ed5a9 100%) !important;
+}
+
+
+.ant-tabs-tab-btn:hover {
+  color: #1ed5a9 !important;
+  font-weight: 500;
+}
+
+
+.ant-tabs-tab-active {
+  .ant-tabs-tab-btn {
+    color: #1ed5a9 !important;
+    font-weight: 500;
+  }
+}
